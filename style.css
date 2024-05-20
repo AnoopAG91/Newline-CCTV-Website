@@ -1,11 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 p {
     color: #212529;
+}
+h2{
+    font-weight: 600;
+    font-size: 3rem;
 }
 
 .about-header {
@@ -72,6 +76,7 @@ p {
 
 .about-decription-right.col-md-7 p {
     color: #66757f;
+    line-height: 1.6;
 }
 
 .about-section2-image img {
@@ -84,9 +89,8 @@ p {
 }
 
 .about-section2-content {
-    padding: 0 1rem;
+    padding: 2rem 1rem;
 }
-
 .about-section2-image img {
     width: 100%;
 }
@@ -102,6 +106,7 @@ p {
 
 .about-section2-content p {
     color: #66757f;
+    line-height: 1.6;
 }
 
 
@@ -145,9 +150,12 @@ p {
 
 
 /* mission section  */
+.about-mission-section.container.py-5 {
+    padding-bottom: 0 !important;
+}
 .left-top {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .left-top1,
@@ -156,11 +164,12 @@ p {
 .left-bottom2 {
     box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem;
+    width: 100%;
 }
 
 .left-bottom {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .mission-left svg {
@@ -171,7 +180,7 @@ p {
 .mission-left {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1rem;
 }
 
@@ -187,26 +196,20 @@ p {
 }
 
 .mission-left p {
-    color: #212529;
+    color: #66757f;
     font-size: 15px;
 }
-
 .mission-right .image img {
     width: 100%;
-    height: 70vh;
+    height: auto;
 }
-
 .mission-right {
-    padding: 1rem;
+    padding: 0 1rem;
 }
-
 
 
 /* certifications css  */
-.certifications-section .inner-div {
-    display: flex;
-    gap: 2rem;
-}
+
 
 .certifications-section {
     background-image: url('images/certificate-img.jpg');
@@ -214,6 +217,10 @@ p {
     background-size: cover;
     width: 100%;
     min-height: 500px;
+}
+.certifications-section .inner-div {
+    display: flex;
+    gap: 2rem;
 }
 
 .certificate {
@@ -291,11 +298,11 @@ p {
 
     /* aboutsection2  */
     .about-section2.container.py-5 {
-        padding: 0 1rem !important;
+        padding: 1rem !important;
     }
 
     .about-section2-content {
-        padding: 1rem;
+        padding: 1rem 0;
     }
 
     .about-section2-content h2 {
@@ -367,7 +374,7 @@ p {
     }
 
     .certificate img {
-        width: auto;
+        width: 85vw;
     }
 
     .certifications-section .header h2 {
@@ -375,7 +382,7 @@ p {
     }
 
     .certifications-section.py-5 {
-        padding-top: 1rem !important;
+        padding-top: 2rem !important;
         padding-bottom: 1rem !important;
     }
 
