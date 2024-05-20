@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    color: #212529;
+}
+
+.about-header {
+    background-image: url('images/about-header-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+}
+
+.page-title a {
+    text-decoration: none;
+    color: #cfcfcf;
+}
+
+.page-title a:hover {
+    color: #fecc00;
+}
+
+.header-text h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.page-title {
+    color: #cfcfcf;
+}
+
+.page-title svg {
+    height: 15px;
+    color: #fecc00;
+    width: auto;
+}
+
+
+
+.about-description.container {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.about-description-left h2 h4 {
+    color: #232020;
+}
+
+.about-decription-left h4 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #cb1e00 !important;
+}
+
+.about-decription-left.col-md-5 h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.about-decription-left.col-md-5 span {
+    color: #cb1e00 !important;
+}
+
+.about-decription-right.col-md-7 p {
+    color: #66757f;
+}
+
+.about-section2-image img {
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.1);
+}
+
+
+.about-section2 {
+    padding: 1rem;
+}
+
+.about-section2-content {
+    padding: 0 1rem;
+}
+
+.about-section2-image img {
+    width: 100%;
+}
+
+.about-section2-content h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.about-section2-content span {
+    color: #cb1e00;
+}
+
+.about-section2-content p {
+    color: #66757f;
+}
+
+
+
+.counter-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #f5f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.counter-text p {
+    margin-bottom: 0;
+}
+
+.counter-icon svg {
+    background-color: #fff !important;
+    padding: 20px;
+    border-radius: 50%;
+    color: #fecc00;
+    font-size: 2rem;
+}
+
+.counter-text h6 {
+    color: #212529;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.counter-text p {
+    color: #212529;
+    font-weight: 500;
+}
+
+
+
+/* mission section  */
+.left-top {
+    display: flex;
+    gap: 2rem;
+}
+
+.left-top1,
+.left-top2,
+.left-bottom1,
+.left-bottom2 {
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.left-bottom {
+    display: flex;
+    gap: 2rem;
+}
+
+.mission-left svg {
+    font-size: 4rem;
+    color: #cb1e00;
+}
+
+.mission-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.mission-left h6 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: .5rem;
+}
+
+.mission-left h6:hover {
+    color: #cb1e00;
+    cursor: pointer;
+}
+
+.mission-left p {
+    color: #212529;
+    font-size: 15px;
+}
+
+.mission-right .image img {
+    width: 100%;
+    height: 70vh;
+}
+
+.mission-right {
+    padding: 1rem;
+}
+
+
+
+/* certifications css  */
+.certifications-section .inner-div {
+    display: flex;
+    gap: 2rem;
+}
+
+.certifications-section {
+    background-image: url('images/certificate-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+}
+
+.certificate {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.certificate img {
+    width: 100%;
+    height: 100%;
+}
+
+.certifications-section .header {
+    text-align: center;
+}
+
+.certifications-section .header h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+.certifications-section .header span {
+    color: #cb1e00;
+}
+
+
+
+@media(max-width:768px) {
+
+    .about-hero.py-5 {
+        padding: 2rem 0 !important;
+    }
+
+    /* about header  */
+    .about-header {
+        height: 20vh;
+    }
+
+    .about-header .header-text.container {
+        padding: 0 1rem !important;
+        text-align: center;
+    }
+
+    .about-header .header-text h1 {
+        font-size: 2rem;
+    }
+
+    .about-header .page-title h5 {
+        font-size: 1rem;
+    }
+
+    /* about hero  */
+    .about-hero {
+        padding: 0 !important;
+    }
+
+    /* about decription  */
+    .about-description.container.py-5 {
+        padding: 0 1rem !important;
+    }
+
+    .about-decription-left.col-md-5 h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-decription-left h4 {
+        font-size: 1.1rem;
+    }
+
+    .about-decription-right.col-md-7 p {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    /* aboutsection2  */
+    .about-section2.container.py-5 {
+        padding: 0 1rem !important;
+    }
+
+    .about-section2-content {
+        padding: 1rem;
+    }
+
+    .about-section2-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-section2-content p {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+
+    /* counter section  */
+    .counter-content {
+        margin-bottom: 1rem !important;
+        padding: 1rem;
+        width: 80% !important;
+    }
+
+    .about-counter-section.container.py-5 {
+        padding: 1rem !important;
+    }
+
+
+    /* mission section  */
+    .about-mission-section.container.py-5 {
+        padding: 0 1rem !important;
+    }
+
+    .mission-left p {
+        font-size: 13px;
+    }
+
+    .left-top {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .mission-right .image img {
+        width: 100%;
+        display: none;
+    }
+
+    .mission-left svg {
+        font-size: 2rem;
+        color: #cb1e00;
+    }
+
+    .mission-left {
+        padding: 0 !important;
+    }
+
+
+    /* cetificate sections  */
+    .certifications-section {
+        min-height: auto;
+    }
+
+    .certifications-section .inner-div {
+        display: flex;
+        flex-grow: 1;
+        gap: 1rem;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .certifications-section .inner-div::-webkit-scrollbar {
+        display: none;
+    }
+
+    .certificate img {
+        width: auto;
+    }
+
+    .certifications-section .header h2 {
+        font-size: 1.8rem;
+    }
+
+    .certifications-section.py-5 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .content.py-5 {
+        padding: 1rem !important;
+    }
+
+    .certifications-section .container {
+        max-width: 100%;
+    }
+
+    .certifications-section .header p {
+        font-size: 13px;
+        color: #212529;
+    }
+
+}
