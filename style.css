@@ -301,7 +301,7 @@ h2 {
 
     /* aboutsection2  */
     .about-section2.container.py-5 {
-        padding: 1rem !important;
+        padding: 2rem 1rem !important;
     }
 
     .about-section2-content {
@@ -310,7 +310,7 @@ h2 {
 
     .about-section2-content h2 {
         font-size: 1.8rem;
-        text-align: center;
+        text-align: left;
         margin-bottom: 1rem;
     }
 
